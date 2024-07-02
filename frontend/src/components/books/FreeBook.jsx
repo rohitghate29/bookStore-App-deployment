@@ -11,7 +11,7 @@ function FreeBook() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("/book");
+        const res = await axios.get("https://book-store-app-api-seven.vercel.app/book");
         const freeBooks = res.data.filter((data) => data.price === 0);
         setBook(freeBooks);
         console.log(freeBooks);
