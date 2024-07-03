@@ -90,7 +90,7 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <Link to="/" className="text-2xl font-bold cursor-pointer">Book Store</Link>
+            <Link to="/" className="text-2xl font-bold cursor-pointer">BookiFy</Link>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
